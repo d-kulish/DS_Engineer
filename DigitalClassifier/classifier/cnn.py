@@ -12,5 +12,5 @@ def cnn_prediction(image_path):
     predicted_class = model.predict(img).argmax()
     print("Predicted class:", predicted_class)
 
-    plt.imshow(img.reshape(28, 28), cmap='gray')
-    plt.show()
+    # plt.imshow(img.reshape(28, 28), cmap='gray')
+    # plt.show()

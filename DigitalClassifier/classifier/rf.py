@@ -14,5 +14,5 @@ def rf_prediction(image_path):
     predicted_class = predicted_class.argmax()
     print("Predicted class:", predicted_class)
 
-    plt.imshow(img.reshape(28, 28), cmap='gray')
-    plt.show()
+    # plt.imshow(img.reshape(28, 28), cmap='gray')
+    # plt.show()
